@@ -1,0 +1,173 @@
+/*________________________________________________________________________________________*/
+/*SETEOS GENERALES////////////////////////////////////////////////////////////////////////*/
+/*________________________________________________________________________________________*/
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: garamond;
+  background-color: rgb(236, 228, 209);
+}
+
+.contenedor-principal {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.contenedor-secundario {
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+@media (max-width: 1150px) {
+  .contenedor-secundario {
+    width: 95%;
+  }
+}
+
+/*Titulares::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.3rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+h5 {
+  font-size: 2.3rem;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
+/*párrafos y listas::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+p {
+  margin: 2rem 0;
+  line-height: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+/*hipervínculos::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 102, 255);
+}
+a:visited {
+  color: rgb(0, 102, 255);
+}
+a:hover {
+}
+a:active {
+}
+
+/*imagenes::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+img {
+  width: 25vw;
+  display: block;
+  background-color: rgba(127, 255, 212, 0);
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  img {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 80vw;
+  }
+}
+
+/*FONTS///////////////////////////////////////////////////////////////////////////////////////*/
+/* <weight>: Use a value from 400 to 900
+ <uniquifier>: Use a unique and descriptive class name */
+
+/*PRINCIPALES DEL BODY////////////////////////////////////////////////////////////////////////*/
+
+/*HEADER--------------------------------------------------------------------------------------*/
+header {
+  background-color: rgb(32, 58, 33);
+}
+
+header a:link {
+  color: rgb(244, 238, 225);
+}
+
+header a:visited {
+  color: rgb(244, 238, 225);
+}
+
+header a:hover {
+  color: rgb(249, 209, 123);
+}
+
+header a:active {
+  color: rgb(244, 238, 225);
+}
+
+.decoracion-rombos {
+  width: 100%;
+  height: 1rem;
+  background-color: rgba(0, 255, 255, 0);
+  background-image: url(img/deco-line-2-Copy.svg);
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  background-position: left center;
+}
+
+nav {
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+/*BODY--------------------------------------------------------------------------------------*/
+
+/*FOOTER--------------------------------------------------------------------------------------*/
+footer {
+  background-color: rgb(209, 195, 164);
+}
